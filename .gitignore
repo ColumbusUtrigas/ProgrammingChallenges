@@ -1,0 +1,7 @@
+010. Todo list/CLI/.vs
+010. Todo list/CLI/Objects
+*.exe
+*.ilk
+*.pdb
+*.iobj
+*.ipdb
