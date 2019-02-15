@@ -24,7 +24,7 @@ counter = int(1)
 # π = (4/1) - (4/3) + (4/5) - (4/7) + (4/9) - (4/11) + (4/13) - (4/15) ...
 four = Decimal(4)
 for i in range(0, n):
-	pi += four / Decimal(counter) - four / Decimal(counter + 2)
+	pi += four / (counter) - four / (counter + 2)
 	counter += 4
 
 if choose == 's':
